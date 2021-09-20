@@ -1,4 +1,4 @@
-# Controle de Transações
+# 🕹️ Controle de Transações
 
 ##
 
@@ -21,6 +21,8 @@
 > - Um `relatório` mostrando todas as `transações` de todos os `clientes`
 > - O `saldo` do `cliente`
 
+---
+
 # 🔖 Informações sobre o que foi usado:
 
 > ## [Pessoa.java]()
@@ -41,44 +43,7 @@
 
 > ## [Main.java]()
 
-# Installation and usage
-
-The easiest way to use react-select is to install it from npm and build it into your app with Webpack.
-
-#### With React Component
-
-```js
-import React from "react";
-import Select from "react-select";
-
-const options = [
-  { value: "chocolate", label: "Chocolate" },
-  { value: "strawberry", label: "Strawberry" },
-  { value: "vanilla", label: "Vanilla" },
-];
-
-class App extends React.Component {
-  state = {
-    selectedOption: null,
-  };
-  handleChange = (selectedOption) => {
-    this.setState({ selectedOption }, () =>
-      console.log(`Option selected:`, this.state.selectedOption)
-    );
-  };
-  render() {
-    const { selectedOption } = this.state;
-
-    return (
-      <Select
-        value={selectedOption}
-        onChange={this.handleChange}
-        options={options}
-      />
-    );
-  }
-}
-```
+---
 
 # 📝 Licença
 
