@@ -1,7 +1,5 @@
 # 🕹️ Controle de Transações
 
-##
-
 **📜 Instruções:**
 
 > - Desenvolva um **controle de transações** onde cada `cliente` possui uma `conta` com seus `dados`.
@@ -23,30 +21,47 @@
 
 ---
 
-# 🔖 Informações sobre o que foi usado:
+## 🔖 Informações sobre o que foi usado:
+
+---
+
+**👤 Classe Pessoa:**
 
 > ## [Pessoa.java]()
 >
-> `Nome` - `CPF` - `Idade`
+> Atributos de `Nome` - `CPF` - `Idade`
+
+**👨 Classe Cliente:**
 
 > ## [Cliente.java]()
 >
 > Possui uma `conta` e uma **heranca** em `pessoa.java`
 
+**💼 Classe Transacao:**
+
 > ## [Transacao.java]()
 >
 > Possui uma **interface** com os tipos de transacao: `vista` / `parcelada` / `saque` / `pagamento` / `data`
 
+**🏦 Classe Conta:**
+
 > ## [Conta.java]()
 >
-> Faz as implementações da classe `transacao.java`
+> Faz as implementações da classe `transacao.java` com todos tipos de transacao, possui um menu onde
+> se pode entre abir uma nova conta, escolher qual compra deseja efetuar e sair.
+
+**👨‍💻 Classe Main:**
 
 > ## [Main.java]()
+>
+> Cria uma conta pro cliente.
 
 ---
 
-# 📝 Licença
+## 📝 Licença
 
-### [🔗 Link do projeto do github](https://github.com/thomazgg/controle_transacoes)
+---
+
+### [🔗 Link do projeto do github]()
 
 #### _Feito por:_ **Joao Victor Thomaz Cardoso**
